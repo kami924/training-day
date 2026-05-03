@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "训练日",
+    "slug": "training-day",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "trainingday",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "web": {
+      "bundler": "metro",
+      "name": "Training Day",
+      "output": "single"
+    },
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#F7F5F0"
+      }
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

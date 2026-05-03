@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+
+# Expo / React Native
+.expo/
+.expo-shared/
+dist/
+web-build/
+
+# Native build outputs
+ios/
+android/
+build/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# System files
+.DS_Store
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Python
+__pycache__/
+.venv/
+*.pyc
+*.egg-info/
+
+# Local editor state
+.vscode/
+.idea/
